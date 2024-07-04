@@ -12,5 +12,7 @@ export const chainIds = {
   5601: "bnb",
   5611: "bnb",
   204: "bnb",
-  1017: "bnb"
+  1017: "bnb",
+
+  7004: "sense",
 };

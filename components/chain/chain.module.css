@@ -8,6 +8,8 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  /* // */
+  margin-top: 10px;
 }
 
 .chainInfoContainer {
@@ -36,4 +38,9 @@
   justify-content: flex-start;
   width: 100%;
   margin-bottom: 12px !important;
+}
+
+/* // */
+.center {
+  text-align: center;
 }

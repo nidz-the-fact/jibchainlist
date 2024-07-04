@@ -71,7 +71,7 @@ const searchTheme = createTheme({
   palette: {
     type: 'light',
     primary: {
-      main: '#f0b90b',
+      main: '#0033FF',
     },
   },
   shape: {
@@ -122,7 +122,7 @@ const searchTheme = createTheme({
 const TestnetSwitch = withStyles({
   switchBase: {
     '&$checked': {
-      color: '#f0b90b',
+      color: '#0033FF',
     },
   },
   checked: {},
@@ -233,8 +233,9 @@ function Header(props) {
 
       <div className={classes.switchContainer}>
         <label className={classes.label}>
-          <TestnetSwitch checked={testnets} onChange={toggleTestnets} />
-          <span>Testnets</span>
+          {/* <TestnetSwitch checked={testnets} onChange={toggleTestnets} /> */}
+          {/* <span>Testnets</span> */}
+          <span>Mainnet</span>
         </label>
         <div className={classes.themeSelectContainer}>
           <StyledSwitch
