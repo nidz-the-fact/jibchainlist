@@ -1,5 +1,30 @@
 [
   {
+    "name": "POM CHAIN",
+    "chain": "POM",
+    "rpc": [
+      "https://pom-rpc.jibl2.com"
+    ],
+    "faucets": [
+      ""
+    ],
+    "nativeCurrency": {
+      "name": "POM",
+      "symbol": "POM",
+      "decimals": 18
+    },
+    "infoURL": "",
+    "bridge": "https://pom-bridge.jibl2.com",
+    "chainId": 7003,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://pom.jibl2.com",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
     "name": "Sense IoT Blockchain",
     "chain": "SENSE",
     "rpc": [
@@ -14,7 +39,7 @@
       "decimals": 18
     },
     "infoURL": "",
-    "bridge": "https://bridge.jbcha.in",
+    "bridge": "https://sense-bridge.jibl2.com",
     "chainId": 7004,
     "explorers": [
       {
