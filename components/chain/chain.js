@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo } from 'react';
-import { Typography, Paper, Button, Tooltip, withStyles } from '@material-ui/core';
+import { Typography, Paper, Button, Tooltip, withStyles, Chip } from '@material-ui/core';
 import classes from './chain.module.css';
 import stores, { useAccount, useChain } from '../../stores/index.js';
 import { ACCOUNT_CONFIGURED } from '../../stores/constants';
@@ -37,7 +37,7 @@ export default function Chain({ chain }) {
   }, []);
 
   const icon = useMemo(() => {
-    return chain.chainSlug ? `${assetPrefix}/images/rsz_${chain.chainSlug}.svg` : `${assetPrefix}/unknown-logo.png`;
+    return chain.chainSlug ? `${assetPrefix}/images/rsz_${chain.chainSlug}.png` : `${assetPrefix}/unknown-logo.png`;
   }, [chain]);
 
   const chainId = useChain((state) => state.id);
@@ -49,6 +49,10 @@ export default function Chain({ chain }) {
     } else {
       updateChain(chain.chainId);
     }
+  };
+
+  const click = () => {
+    // click
   };
 
   const showAddlInfo = chain.chainId === chainId;
@@ -73,8 +77,10 @@ export default function Chain({ chain }) {
               <a href={chain.infoURL} target="_blank" rel="noreferrer">
                 {chain.name}
               </a>
+
             </Typography>
           </Tooltip>
+
         </div>
         <div className={classes.chainInfoContainer}>
           <div className={classes.dataPoint}>
@@ -90,10 +96,18 @@ export default function Chain({ chain }) {
             <Typography variant="h5">{chain.nativeCurrency ? chain.nativeCurrency.symbol : 'none'}</Typography>
           </div>
         </div>
+
+        <div className={classes.center}>
+          <a href={chain.bridge} target="_blank" rel="noreferrer">
+            <Chip label="Bridge" onClick={click} />
+          </a>
+        </div>
+
         <div className={classes.addButton}>
           <Button variant="outlined" color="primary" onClick={() => addToNetwork(account, chain)}>
             {renderProviderText(account)}
           </Button>
+
         </div>
         <ExpandButton onClick={handleClick}>
           <ExpandMoreIcon style={{ transform: showAddlInfo ? 'rotate(180deg)' : '', transition: 'all 0.2s ease' }} />
