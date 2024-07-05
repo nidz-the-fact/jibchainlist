@@ -1,4 +1,9 @@
 {
+  "7003": {
+    "rpcs": [
+      "https://pom-rpc.jibl2.com"
+    ]
+  },
   "7004": {
     "rpcs": [
       "https://sense-rpc.jibl2.com"
