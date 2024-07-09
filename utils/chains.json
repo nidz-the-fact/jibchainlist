@@ -14,9 +14,9 @@
       "symbol": "POM",
       "decimals": 18
     },
-    "infoURL": "",
+    "infoURL": "https://pom.jibl2.com",
     "bridgeNative": "https://pom-bridge.jibl2.com",
-    "bridgeErc20": "",
+    "bridgeErc20": "https://bridge.jibl2.com/deposit/pom",
     "chainId": 7003,
     "explorers": [
       {
@@ -41,8 +41,9 @@
       "symbol": "SENSE",
       "decimals": 18
     },
-    "infoURL": "",
-    "bridge": "https://bridge.jbcha.in",
+    "infoURL": "https://sense.jibl2.com",
+    "bridgeNative": "https://sense-bridge.jibl2.com",
+    "bridgeErc20": "https://bridge.jibl2.com/deposit/sen",
     "chainId": 7004,
     "explorers": [
       {
@@ -67,9 +68,9 @@
       "symbol": "META",
       "decimals": 18
     },
-    "infoURL": "",
+    "infoURL": "https://meta-id.jibl2.com",
     "bridgeNative": "https://meta-id-bridge.jibl2.com",
-    "bridgeErc20": "",
+    "bridgeErc20": "https://bridge.jibl2.com/deposit/meta",
     "chainId": 7005,
     "explorers": [
       {
