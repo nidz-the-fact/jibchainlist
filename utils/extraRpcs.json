@@ -13,5 +13,10 @@
     "rpcs": [
       "https://meta-id-rpc.jibl2.com"
     ]
+  },
+  "8899001": {
+    "rpcs": [
+      "https://rpc.lavarock.xyz"
+    ]
   }
 }
