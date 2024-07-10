@@ -79,5 +79,32 @@
         "standard": "EIP3091"
       }
     ]
+  },
+  {
+    "name": "Lavarock Gaming Blockchain",
+    "chain": "LVR",
+    "image": "https://exp.lavarock.xyz/assets/configs/network_icon.png",
+    "rpc": [
+      "https://rpc.lavarock.xyz"
+    ],
+    "faucets": [
+      ""
+    ],
+    "nativeCurrency": {
+      "name": "LVR",
+      "symbol": "LVR",
+      "decimals": 18
+    },
+    "infoURL": "https://exp.lavarock.xyz",
+    "bridgeNative": "https://bridge.lavarock.xyz",
+    "bridgeErc20": "https://bridge.jibl2.com/deposit/lava",
+    "chainId": 8899001,
+    "explorers": [
+      {
+        "name": "blockscout",
+        "url": "https://exp.lavarock.xyz",
+        "standard": "EIP3091"
+      }
+    ]
   }
 ]
