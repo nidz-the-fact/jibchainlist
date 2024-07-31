@@ -106,6 +106,7 @@
         "standard": "EIP3091"
       }
     ]
+<<<<<<< HEAD
   },
   {
     "name": "dustboy IoT Blockchain",
@@ -133,5 +134,7 @@
         "standard": "EIP3091"
       }
     ]
+=======
+>>>>>>> 495f7e1a348375e680dd61b29b5399eee3c09a56
   }
 ]
